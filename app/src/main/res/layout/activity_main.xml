@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/start_float_window"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Float Window" >
+    </Button>
+    <Button
+        android:id="@+id/next"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/start_float_window"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="下一页" >
+    </Button>
+    <Button
+        android:id="@+id/next2"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/next"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="下一页" >
+    </Button>
+
+    <Button
+        android:id="@+id/next3"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/next2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="下一页" >
+    </Button>
+
+</RelativeLayout>
